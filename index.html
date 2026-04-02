@@ -3,140 +3,197 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kancelarijski materijal</title>
-    <meta name="description" content="Home page starter" />
+    <title>Imperium Office</title>
+    <meta name="description" content="Imperium Office - prodaja kancelarijskog materijala, servis štampača i dostava na adresu." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   </head>
   <body>
     <header class="site-header">
-      <div class="brand">Kancelarijski materijal</div>
+      <a class="brand" href="/" aria-label="Imperium Office">
+        <img class="brand-logo" src="/src/images/logo.png" alt="Imperium Office logo" />
+      </a>
       <nav class="nav">
-        <a href="#home">Home</a>
-        <a href="#page-one">Page One</a>
-        <a href="#page-two">Page Two</a>
-        <a href="#page-three">Page Three</a>
+        <a href="#home">Početna</a>
+        <a href="#about">O nama</a>
+        <a href="#services">Usluge</a>
+        <a href="/catalog.html">Katalog</a>
+        <a href="#contact">Kontakt</a>
       </nav>
-      <button class="menu-btn" aria-label="Open menu">Menu</button>
+      <button class="menu-btn" aria-label="Meni">Meni</button>
     </header>
 
     <main>
       <section id="home" class="hero section">
-        <div class="hero-content">
-          <p class="eyebrow">Dobrodosli</p>
-          <h1>Home page KANC MAT</h1>
-          <p class="lead">Moderni, responzivni layout sa animacijama i jasnom strukturom.</p>
+        <div class="hero-copy">
+          <p class="eyebrow">Imperium Office</p>
+          <h1>Kancelarijski materijal i servis štampača</h1>
+          <p class="lead">Kompletna oprema i servis za kancelarije koje traže brzo, pouzdano rešenje.</p>
           <div class="cta-row">
-            <button class="btn primary">Start</button>
-            <button class="btn ghost">Kontakt</button>
+            <a class="btn primary" href="/catalog.html">Pogledaj katalog</a>
+            <a class="btn outline" href="#contact">Kontaktiraj nas</a>
           </div>
-        </div>
-        <div class="hero-visual">
-          <div class="orb"></div>
-          <div class="grid"></div>
+          <div class="hero-badges">
+            <span>Brza isporuka</span>
+            <span>Širok asortiman proizvoda</span>
+            <span>Poslovna podrška</span>
+          </div>
         </div>
       </section>
 
-      <section id="page-one" class="section card-grid reveal">
-        <h2>Page One</h2>
-        <div class="grid-3">
-          <article class="card">
-            <h3>Brzina</h3>
-            <img class="card-img" src="src/images/papir.jpg" alt="papir" class="papir" />
+      <section class="section stats reveal">
+        <div class="stats-grid">
+          <article class="stat-card">
+            <h3>5000+</h3>
+            <p>Proizvoda u ponudi</p>
           </article>
-          <article class="card">
-            <h3>Struktura</h3>
-            <p>Header, sekcije i footer odmah spremni.</p>
+          <article class="stat-card">
+            <h3>25+</h3>
+            <p>Godina iskustva</p>
           </article>
-          <article class="card">
-            <h3>Skaliranje</h3>
-            <p>Dodaj sekcije ili rute po potrebi.</p>
+          <article class="stat-card">
+            <h3>1000+</h3>
+            <p>Zadovoljnih korisnika</p>
           </article>
         </div>
       </section>
 
-      <section id="page-two" class="section split reveal">
-        <div>
-          <h2>Page Two</h2>
-          <p>Ovo je druga "random" stranica sa drugacijim rasporedom.</p>
-          <ul class="bullets">
-            <li>Responzivni grid</li>
-            <li>Animacije na skrol</li>
-            <li>Jasna hijerarhija teksta</li>
-          </ul>
+      <section id="about" class="section about reveal">
+        <div class="section-head center">
+          <span class="eyebrow">Šta radimo</span>
+          <h2>Podrška za kancelariju i štampanje</h2>
         </div>
-        <div class="panel">
-          <p class="quote">"Neka sve bude jednostavno, ali ne prostije."</p>
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
+        <div class="icon-card-grid">
+          <article class="info-card">
+            <div class="icon-box icon-paper">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="12" y="10" width="24" height="28" rx="4" fill="none" stroke="currentColor" stroke-width="3"/><path d="M16 16h16" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M16 22h16" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Prodaja materijala</h3>
+            <p>Papir, fascikle, olovke i profesionalni materijali za svaki tim.</p>
+          </article>
+          <article class="info-card">
+            <div class="icon-box icon-printer">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="12" y="12" width="24" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="3"/><rect x="14" y="30" width="20" height="6" rx="2" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="20" cy="18" r="2" fill="currentColor"/></svg>
+            </div>
+            <h3>Servis štampača</h3>
+            <p>Održavanje, toneri i brza popravka bez prekida u radu.</p>
+          </article>
+          <article class="info-card">
+            <div class="icon-box icon-truck">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="10" y="18" width="22" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="3"/><path d="M32 22h8v8h-8" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="17" cy="36" r="4" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="31" cy="36" r="4" fill="none" stroke="currentColor" stroke-width="3"/></svg>
+            </div>
+            <h3>Dostava</h3>
+            <p>Brza, sigurna dostava materijala direktno na adresu.</p>
+          </article>
         </div>
       </section>
 
-      <section id="page-three" class="section stats reveal">
-        <h2>Page Three</h2>
-        <div class="stats-row">
-          <div class="stat">
-            <span class="num">01</span>
-            <span class="label">Ideja</span>
-          </div>
-          <div class="stat">
-            <span class="num">02</span>
-            <span class="label">Dizajn</span>
-          </div>
-          <div class="stat">
-            <span class="num">03</span>
-            <span class="label">Start</span>
-          </div>
+      <section id="services" class="section services reveal">
+        <div class="section-head center">
+          <span class="eyebrow">Zašto izabrati nas</span>
+          <h2>Brza podrška sa profesionalnim pristupom</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="icon-box icon-phone">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M18 10h12v8H18z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M19 18c-1.5 2.8-1.7 5.7-0.5 8.6s3.4 5.4 6.3 6.3c2.9 0.9 5.8 1 8.6-0.5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Direktan kontakt</h3>
+            <p>Telefon i mejl spremni za narudžbine i hitnu podršku.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon-box icon-check">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 26l8 8 16-18" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Transparentnost</h3>
+            <p>Jasni uslovi, produkti i cene bez skrivenih troškova.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon-box icon-leaf">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 12c-6 6-8 13-8 18 0 4 3 8 8 8s8-4 8-8c0-5-2-12-8-18z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M24 12c4 4 6 8 6 12" fill="none" stroke="currentColor" stroke-width="3"/></svg>
+            </div>
+            <h3>Stručnost</h3>
+            <p>Iskusan tim koji brzo odgovara i rešava servisne zahteve.</p>
+          </article>
         </div>
       </section>
-      <section id="inquiry" class="section form-section reveal">
-        <h2>Upit</h2>
-        <form class="inquiry-form" id="inquiry-form">
-          <label>
-            Usluga
-            <select name="usluga" required>
-              <option value="Web">Web</option>
-              <option value="Dizajn">Dizajn</option>
-              <option value="Konsalting">Konsalting</option>
-            </select>
-          </label>
-          <label>
-            Budzet
-            <select name="budzet" required>
-              <option value="do-500">do 500€</option>
-              <option value="500-1500">500–1500€</option>
-              <option value="1500+">1500€+</option>
-            </select>
-          </label>
-          <label>
-            Rok
-            <select name="rok" required>
-              <option value="1-2-nedelje">1–2 nedelje</option>
-              <option value="mesec">Mesec dana</option>
-              <option value="fleksibilno">Fleksibilno</option>
-            </select>
-          </label>
-          <label>
-            Email
-            <input type="email" name="email" placeholder="tvoj@email.com" required />
-          </label>
-          <label class="full">
-            Poruka
-            <textarea name="poruka" rows="5" placeholder="Opisi ukratko sta ti je potrebno" required></textarea>
-          </label>
-          <button class="btn primary" type="submit">Posalji</button>
-        </form>
+
+      <section id="catalog" class="section catalog-preview reveal">
+        <div class="section-head center">
+          <span class="eyebrow">Katalog</span>
+          <h2>Kategorije proizvoda</h2>
+          <p class="section-description">Otvorite kategoriju i brzo pregledajte dostupne proizvode.</p>
+        </div>
+        <div class="homepage-category-list"></div>
+        <div class="homepage-catalog-action catalog-action"></div>
+      </section>
+
+      <section id="contact" class="section contact reveal">
+        <div class="section-head center">
+          <span class="eyebrow">Kontakt</span>
+          <h2>Kontaktirajte nas brzo i bez greške</h2>
+          <p class="section-description">Jasno, profesionalno i jednostavno: telefon, mejl i podrška uvek dostupni za kancelarijski materijal i servis štampača.</p>
+        </div>
+        <div class="contact-grid">
+          <article class="contact-panel">
+            <div class="panel-top">
+              <span class="panel-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l1.54-1.54a1 1 0 0 1 1.06-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1v3.5a1 1 0 0 1-1 1C9.28 21.5 2.5 14.72 2.5 6a1 1 0 0 1 1-1H7a1 1 0 0 1 1 1c0 1.24.2 2.45.57 3.57a1 1 0 0 1-.24 1.06l-1.71 1.71Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              <div>
+                <p class="panel-label">Direktan kontakt</p>
+                <h3>Pozovite ili pišite odmah</h3>
+              </div>
+            </div>
+            <div class="contact-details">
+              <a class="contact-link" href="tel:+381601234567">
+                <span class="contact-link-icon">📞</span>
+                +381 60 123 4567
+              </a>
+              <a class="contact-link" href="mailto:office@imperiumoffice.rs">
+                <span class="contact-link-icon">✉️</span>
+                office@imperiumoffice.rs
+              </a>
+            </div>
+            <p class="panel-note">Radno vreme: pon-pet 09:00–18:00</p>
+          </article>
+
+          <article class="contact-panel">
+            <div class="panel-top">
+              <span class="panel-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M3 13h2v5h14v-5h2v7H3v-7Zm2-3h5V5H5v5Zm7 0h7V5h-7v5ZM6 15v-2h4v2H6Zm8 0v-2h4v2h-4Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              <div>
+                <p class="panel-label">Podrška i dostava</p>
+                <h3>Brza usluga bez čekanja</h3>
+              </div>
+            </div>
+            <ul class="contact-features">
+              <li>Express dostava direktno do kancelarije</li>
+              <li>Hitne servisne intervencije za štampače</li>
+              <li>Transparentne informacije o porudžbinama</li>
+            </ul>
+          </article>
+        </div>
+        <div class="contact-notes">
+          <div class="note-card">
+            <strong>Jasan proces</strong>
+            <p>Bez komplikacija i nejasnih informacija — sve usluge su lako dostupne.</p>
+          </div>
+          <div class="note-card">
+            <strong>Sigurna isporuka</strong>
+            <p>Brza i pouzdana dostava za opremu, tonere i kancelarijski materijal.</p>
+          </div>
+        </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>Kancelarisjki materijal © 2026</p>
-      <div class="footer-links">
-        <a href="tel:+381601234567">+381 60 123 4567</a>
-        <a href="mailto:info@mppartner.rs">info@mppartner.rs</a>
-      </div>
+      <p>Imperium Office © 2026</p>
+      <p>Prodaja kancelarijskog materijala, servis štampača i dostava.</p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

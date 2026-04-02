@@ -1,0 +1,304 @@
+{
+  "categories": [
+    {
+      "slug": "papir",
+      "name": "Papir",
+      "description": "Papir za štampu, fotokopiranje i beleške za sve kancelarijske potrebe.",
+      "icon": "paper",
+      "products": [
+        {
+          "name": "Standard A4 papir",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+        },
+        {
+          "name": "Fotokop papir",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Obostrani papir",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Blok za beleške",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Grafički papir",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Grafički papir",
+          "image": "/src/images/papir.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "registratori",
+      "name": "Registratori",
+      "description": "Registratori, fascikle i sistemi za organizaciju dokumenata.",
+      "icon": "binder",
+      "products": [
+        {
+          "name": "Registrator A4",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Plastični registrator",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Mapa sa gumom",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Dokument fascikla",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Prstenasta mapa",
+          "image": "/src/images/papir.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "toneri-i-kartridzi",
+      "name": "Toneri i kartridži",
+      "description": "Originalni i kompatibilni toneri za sve popularne štampače.",
+      "icon": "cartridge",
+      "products": [
+        {
+          "name": "Toner za laser štampač",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Kompatibilni kartridž",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Boja za Inkjet",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Set tonera za HP",
+          "image": "/src/images/papir.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "olovke-i-markeri",
+      "name": "Olovke i markeri",
+      "description": "Hemijske, gel, marker i flomaster olovke za svaki kancelarijski zadatak.",
+      "icon": "pen",
+      "products": [
+        {
+          "name": "Set hemijskih olovaka",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Kvalitetni markeri",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Permanent marker",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Fini gel penkali",
+          "image": "/src/images/papir.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "organizatori",
+      "name": "Organizatori",
+      "description": "Police, držači i organizatori da svaki radni sto ostane uredan.",
+      "icon": "boxes",
+      "products": [
+        {
+          "name": "Sto za dokumente",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Stalak za fascikle",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Kutija za olovke",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Modularni organizator",
+          "image": "/src/images/papir.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "spone-i-kope",
+      "name": "Spone i kopče",
+      "description": "Sve vrste spojnica za papir, kartuše i metalne kopče.",
+      "icon": "clip",
+      "products": [
+        {
+          "name": "Kancelarijske spone",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Metalne kopče",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Plastične kopče",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Spajalice za žice",
+          "image": "/src/images/papir.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "stolna-oprema",
+      "name": "Stolna oprema",
+      "description": "Podmetači, stalci i sve tamodravne sitnice koje urede svaki radni sto.",
+      "icon": "tape",
+      "products": [
+        {
+          "name": "Podmetač za miš",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Držač dokumenta",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Stalak za telefon",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Magnetni organizator",
+          "image": "/src/images/papir.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "beleške-i-blokovi",
+      "name": "Beleške i blokovi",
+      "description": "Blokovi, sticky notes i memorandumi za brzu evidenciju i poruke.",
+      "icon": "label",
+      "products": [
+        {
+          "name": "Sticky notes set",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Linični blok",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Nedeljni planer",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Memo blokovi",
+          "image": "/src/images/papir.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "arhiviranje",
+      "name": "Arhiviranje",
+      "description": "Kutije, fascikle i folderi za dugoročno čuvanje važnih dokumenata.",
+      "icon": "boxes",
+      "products": [
+        {
+          "name": "Arhivska kutija",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Dokument folder",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Mape sa etiketama",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Plastične fascikle",
+          "image": "/src/images/papir.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "kalendari-i-planeri",
+      "name": "Kalendari i planeri",
+      "description": "Stolni i zidni kalendari, planeri i dnevni rasporedi za timski rad.",
+      "icon": "label",
+      "products": [
+        {
+          "name": "Zidni kalendar",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Dnevni planer",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Mesečni planer",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Planner za projekat",
+          "image": "/src/images/papir.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "tehnicka-oprema",
+      "name": "Tehnička oprema",
+      "description": "Dodaci za kancelariju koji olakšavaju rad i održavanje štampača.",
+      "icon": "usb",
+      "products": [
+        {
+          "name": "USB flash disk",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Kabl za napajanje",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Adapter za monitor",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Punjač za laptop",
+          "image": "/src/images/papir.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "ambalaza-i-etikete",
+      "name": "Ambalaža i etikete",
+      "description": "Kutije, etikete i lepljive trake za pakovanje i identifikaciju.",
+      "icon": "tape",
+      "products": [
+        {
+          "name": "Selotejp traka",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Etikete za pakete",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Kartonske kutije",
+          "image": "/src/images/papir.jpg"
+        },
+        {
+          "name": "Transportna folija",
+          "image": "/src/images/papir.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="sr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kategorija - Imperium Office</title>
+    <meta name="description" content="Prikaz proizvoda iz odabrane kategorije Imperium Office." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/">
+        <img class="brand-logo" src="/src/images/logo.png" alt="Imperium Office logo" />
+      </a>
+      <nav class="nav">
+        <a href="/">Početna</a>
+        <a href="/catalog.html">Katalog</a>
+      </nav>
+      <button class="menu-btn" aria-label="Meni">Meni</button>
+    </header>
+
+    <main>
+      <section class="page-hero section reveal">
+        <div class="section-head center">
+          <span class="eyebrow">Kategorija</span>
+          <h1 class="category-title">Kategorija</h1>
+          <p class="category-subtitle">Detaljan pregled proizvoda sa brzo dostupnim opcijama za naručivanje.</p>
+          <div class="cta-row">
+            <a class="btn outline" href="/catalog.html">Nazad na katalog</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="category-products product-list"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Imperium Office © 2026</p>
+      <p>Prodaja kancelarijskog materijala, servis štampača i dostava.</p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
