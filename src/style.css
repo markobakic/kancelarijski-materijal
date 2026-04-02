@@ -898,6 +898,41 @@ h4 {
   .hero-visual {
     order: -1;
   }
+}
+
+@media (max-width: 760px) {
+  .page-hero,
+  .hero {
+    padding: 28px 20px;
+  }
+
+  .product-list {
+    grid-template-columns: 1fr;
+  }
+
+  .product-card-image {
+    min-height: 180px;
+  }
+
+  .product-card h4 {
+    padding: 18px 20px 0;
+    font-size: 1.05rem;
+  }
+
+  .product-note {
+    padding: 0 20px;
+  }
+
+  .product-card-meta {
+    padding: 0 20px 20px;
+    gap: 10px;
+  }
+
+  .product-chip {
+    width: 44px;
+    height: 44px;
+  }
+}
 
   .nav {
     gap: 14px;
@@ -911,7 +946,7 @@ h4 {
   .homepage-category-list {
     gap: 10px;
   }
-}
+
 
 @media (max-width: 780px) {
   main {

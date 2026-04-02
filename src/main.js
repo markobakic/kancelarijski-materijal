@@ -64,7 +64,7 @@ function createCategoryCard(category, options = {}) {
   const showIcon = !options.noIcons;
   const showDescription = options.hideDescription !== true && !options.noIcons;
   return `
-    <a class="category-card ${options.listView ? 'list-view' : ''}" href="/category.html?cat=${encodeURIComponent(category.name)}">
+    <a class="category-card ${options.listView ? 'list-view' : ''}" href="category.html?cat=${encodeURIComponent(category.name)}">
       ${showIcon ? `<div class="icon-box icon-${category.icon}">${iconMarkup(category.icon)}</div>` : ''}
       <div class="category-body">
         <h3>${category.name}</h3>
@@ -131,7 +131,7 @@ async function renderHomepagePreview() {
     .map((category) => createCategoryCard(category, { noIcons: true, hideDescription: true, listView: true }))
     .join('');
 
-  homeAction.innerHTML = `<a class="btn outline" href="/catalog.html">Pogledaj sve kategorije</a>`;
+  homeAction.innerHTML = `<a class="btn outline" href="catalog.html">Pogledaj sve kategorije</a>`;
 }
 
 async function renderCatalogPage() {
