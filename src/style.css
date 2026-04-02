@@ -858,13 +858,19 @@ h4 {
 .reveal {
   opacity: 0;
   transform: translateY(32px);
-  transition: opacity 0.7s ease, transform 0.7s ease;
+  will-change: opacity, transform;
 }
 
 .reveal.visible {
   opacity: 1;
   transform: translateY(0);
   animation: fadeInUp 0.75s ease both;
+}
+
+@media (max-width: 760px) {
+  .reveal.visible {
+    animation: fadeInUp 0.85s ease both;
+  }
 }
 
 .empty-state {
