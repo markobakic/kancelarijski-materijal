@@ -36,7 +36,7 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
 
 async function fetchProducts() {
   try {
-    const response = await fetch('/src/products.json');
+    const response = await fetch(new URL('./products.json', import.meta.url));
     return await response.json();
   } catch (error) {
     console.error('Neuspešno učitavanje proizvoda', error);

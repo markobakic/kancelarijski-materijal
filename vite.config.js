@@ -1,8 +1,16 @@
 import { defineConfig } from 'vite'
+import { resolve } from 'path'
 
 export default defineConfig({
   base: './',
   build: {
-    outDir: 'dist',  // Cloudflare Pages očekuje dist
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        catalog: resolve(__dirname, 'catalog.html'),
+        category: resolve(__dirname, 'category.html'),
+      },
+    },
   },
 })
