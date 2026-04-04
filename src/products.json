@@ -12,23 +12,23 @@
         },
         {
           "name": "Fotokop papir",
-          "image": "/src/images/papir.jpg"
+           "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Obostrani papir",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Blok za beleške",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Grafički papir",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Grafički papir",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         }
       ]
     },
@@ -40,23 +40,24 @@
       "products": [
         {
           "name": "Registrator A4",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+
         },
         {
           "name": "Plastični registrator",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Mapa sa gumom",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Dokument fascikla",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Prstenasta mapa",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         }
       ]
     },
@@ -68,19 +69,19 @@
       "products": [
         {
           "name": "Toner za laser štampač",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Kompatibilni kartridž",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Boja za Inkjet",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Set tonera za HP",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         }
       ]
     },
@@ -92,19 +93,20 @@
       "products": [
         {
           "name": "Set hemijskih olovaka",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+
         },
         {
           "name": "Kvalitetni markeri",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Permanent marker",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Fini gel penkali",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         }
       ]
     },
@@ -116,19 +118,19 @@
       "products": [
         {
           "name": "Sto za dokumente",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Stalak za fascikle",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Kutija za olovke",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Modularni organizator",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         }
       ]
     },
@@ -140,19 +142,19 @@
       "products": [
         {
           "name": "Kancelarijske spone",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Metalne kopče",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Plastične kopče",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Spajalice za žice",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         }
       ]
     },
@@ -164,19 +166,19 @@
       "products": [
         {
           "name": "Podmetač za miš",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Držač dokumenta",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Stalak za telefon",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Magnetni organizator",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         }
       ]
     },
@@ -188,19 +190,19 @@
       "products": [
         {
           "name": "Sticky notes set",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Linični blok",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Nedeljni planer",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Memo blokovi",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         }
       ]
     },
@@ -212,19 +214,19 @@
       "products": [
         {
           "name": "Arhivska kutija",
-          "image": "/src/images/papir.jpg"
+           "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Dokument folder",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Mape sa etiketama",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Plastične fascikle",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         }
       ]
     },
@@ -236,19 +238,19 @@
       "products": [
         {
           "name": "Zidni kalendar",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Dnevni planer",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Mesečni planer",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Planner za projekat",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         }
       ]
     },
@@ -260,19 +262,19 @@
       "products": [
         {
           "name": "USB flash disk",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Kabl za napajanje",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Adapter za monitor",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Punjač za laptop",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         }
       ]
     },
@@ -284,19 +286,19 @@
       "products": [
         {
           "name": "Selotejp traka",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Etikete za pakete",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Kartonske kutije",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
           "name": "Transportna folija",
-          "image": "/src/images/papir.jpg"
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         }
       ]
     }

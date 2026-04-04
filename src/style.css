@@ -150,6 +150,20 @@ main {
   border-radius: 0;
 }
 
+.hero-image {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 32px;
+
+  transition: transform 0.3s ease;
+}
+
+.hero-image:hover {
+  transform: scale(1.05);
+}
+
 .page-hero {
   padding: 44px 28px 32px;
   background: rgba(255, 255, 255, 0.92);
