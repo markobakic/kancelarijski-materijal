@@ -153,6 +153,7 @@ main {
 .hero-image {
   width: 100%;
   max-width: 480px;
+  object-fit: cover;
   height: auto;
   margin: 0 auto;
   margin-top: 32px;
@@ -880,6 +881,21 @@ h4 {
   opacity: 0;
   transform: translateY(32px);
   will-change: opacity, transform;
+}
+
+.flex-image {
+  display: flex; 
+  justify-content: space-between; 
+  /* width: 100%;  */
+  margin-bottom: 32px;
+}
+
+@media (max-width: 1096px) {
+  .flex-image {
+  display: flex; 
+    flex-direction: column;
+
+}
 }
 
 .reveal.visible {
