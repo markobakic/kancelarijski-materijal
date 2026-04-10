@@ -261,8 +261,7 @@
         {
           "name": "Flomaster lajner Faber Castell 1516 0.4mm 1/10",
           "image": "https://www.kancelarijskipribor.rs/images/products/big/1704.jpg"
-        }
-        ,
+        },
         {
           "name": "Flomaster Edding Drawliner E-1880 set 1/4",
           "image": "https://www.kancelarijskipribor.rs/images/products/big/12182.jpg"
@@ -690,51 +689,628 @@
         }
       ]
     },
-     {
-      "slug": "hemijske-olovke",
-      "name": "Hemijske olovke",
-      "description": "Hemijske olovke",
-      "icon": "paper",
+    {
+      "slug": "heftalice-i-rasheftivaci",
+      "name": "Heftalice i rasheftivači",
+      "description": "Heftalice i rasheftivači",
+      "icon": "book",
       "products": [
         {
-          "name": "Hemijska olovka Aihao 567 0.7mm",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/4779.jpg"
+          "name": "Rasheftivač Dingli DL 0260",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/17307.jpg"
         },
         {
-          "name": "Hemijska olovka Linc Tip Top Grip 0.7mm",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/7441.jpg"
+          "name": "Rasheftivač",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/13706.jpg"
         },
         {
-          "name": "Hemijska olovka A-plus TB309600 NanoSlick 0.6mm",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/22929.png"
+          "name": "Rasheftivač sa kočnicom",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/13705.jpg"
         },
         {
-          "name": "Hemijska olovka Office shop easy glide plava 1.0mm",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/11419.jpg"
+          "name": "Rasheftivač Kangaro sa kočnicom",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/13652.jpg"
         },
         {
-          "name": "Hemijska olovka Linc MR CLIC 0.7mm",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/7663.jpg"
+          "name": "Heftalica Officeshop OF034 / do 25 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2435.jpg"
         },
         {
-          "name": "Hemijska olovka Bic Gelocity Stic 0.5mm",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/12619.jpg"
+          "name": "Heftalica Novus Mini / do 12 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/7387.jpg"
         },
         {
-          "name": "Hemijska olovka Pilot Super grip 0.7mm",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/4321.jpg"
+          "name": "Heftalica Kangaro Trendy 10 No.10 / do 15 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/20298.jpg"
         },
         {
-          "name": "Hemijska olovka Pilot Super Grip G RT M plava 1.0mm",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/11524.jpg"
+          "name": "Heftalica Dingli DL 502 metalna / do 25 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/15646.jpg"
         },
         {
-          "name": "Hemijska olovka Pilot Acroball 0.7mm",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/4320.jpg"
+          "name": "Heftalica Kangaro HP-45 / do 30 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/156.jpg"
         },
         {
-          "name": "Hemijska olovka Pilot Synergy Point 0.5mm",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/6578.jpg"
+          "name": "Heftalica Deli specijal metalna E0346 / do 30 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2218.jpg"
+        },
+        {
+          "name": "Heftalica ručna Octopus metalna / do 45 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/12626.jpg"
+        },
+        {
+          "name": "Heftalica Kangaro HP-435 /do 40 lista/",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/158.jpg"
+        },
+        {
+          "name": "Heftalica Fellowes LX820 / do 20 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/7559.jpg"
+        },
+        {
+          "name": "Heftalica Novus Harmony B2 re+new / do 25 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/7366.jpg"
+        },
+        {
+          "name": "Heftalica Kanex FL-12M13 / do 120 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2153.webp"
+        },
+        {
+          "name": "Heftalica Maped Expert / do 90 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1500.jpg"
+        },
+        {
+          "name": "Heftalica Deli profesionalna E0386 / do 120 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1298.jpg"
+        },
+        {
+          "name": "Heftalica Kangaro HD-23S13 / do 100 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/164.jpg"
+        },
+        {
+          "name": "Heftalica Kangaro HD-23S24 / do 210 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/166.jpg"
+        },
+        {
+          "name": "Heftalica Kangaro HD-23L24FL / do 210 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4281.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "pribor-za-radni-sto",
+      "name": "Pribor za radni sto",
+      "description": "Pribor za radni sto",
+      "icon": "book",
+      "products": [
+        {
+          "name": "Lenjir 30cm ABS providni",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/15658.jpg"
+        },
+        {
+          "name": "Štipaljke za papir",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/11990.jpg"
+        },
+        {
+          "name": "Klamerica No.10 Duplo",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/11141.jpg"
+        },
+        {
+          "name": "Spajalice Duplo 25mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/772.jpg"
+        },
+        {
+          "name": "Rajsnadle zlatne 1/50",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/3839.jpg"
+        },
+        {
+          "name": "Rezač Faber Castell plastični (1/100) 05922",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2185.jpg"
+        },
+        {
+          "name": "Gumica Maped Mini Softy",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/22146.jpg"
+        },
+        {
+          "name": "Spajalice Duplo 28mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/769.jpg"
+        },
+        {
+          "name": "Klamerice Kangaro No10",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/173.jpg"
+        },
+        {
+          "name": "Spajalice Delta No.3",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/873.jpg"
+        },
+        {
+          "name": "Gumica Rotring T-30 manja",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/972.jpg"
+        },
+        {
+          "name": "Spajalice Delta No.4",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/771.jpg"
+        },
+        {
+          "name": "Gumica Staedtler B40 Raso plast",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2271.jpg"
+        },
+        {
+          "name": "Korektor Donau 20ml solvent 7651001-99",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2272.jpg"
+        },
+        {
+          "name": "Korektor tečni Edigs 10 ml",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/15510.jpg"
+        },
+        {
+          "name": "Korektor Retype tečni 20ml",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/15963.jpg"
+        },
+        {
+          "name": "Korektor traka Forofis 5mm x 8m",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/21598.jpg"
+        },
+        {
+          "name": "Lenjir 30cm flexibile u boji",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2518.jpg"
+        },
+        {
+          "name": "Makaze kancelarijske 20cm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1997.jpg"
+        },
+        {
+          "name": "Jemstvenik 25m",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/891.jpeg"
+        },
+        {
+          "name": "Rezač Faber Castell metalni",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/871.jpg"
+        },
+        {
+          "name": "Mastilo za pečate Horse original 28ml",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4532.jpg"
+        },
+        {
+          "name": "Makaze kancelarijske 21cm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1998.jpg"
+        },
+        {
+          "name": "Trougao Maped GeoMetric 45 26cm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/22848.jpg"
+        },
+        {
+          "name": "Korektor traka Edigs 5mmx6m",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/919.jpg"
+        },
+        {
+          "name": "Rezač Grip Faber Castell mini pastel (1/12)",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2188.jpg"
+        },
+        {
+          "name": "Kutija za papir žičana 10,5x10,5 cm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4592.jpg"
+        },
+        {
+          "name": "Štipaljka za papir metalna 100mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4586.jpg"
+        },
+        {
+          "name": "Klamerice Kangaro 23/10",
+          "image": "https://www.kancelarijskipribor.rs/proizvod/klamerice-kangaro-23-10"
+        },
+        {
+          "name": "Stalak za koverte žičani",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4591.jpg"
+        },
+        {
+          "name": "Lupa Deli 60 mm 9091 990914",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2213.jpg"
+        },
+        {
+          "name": "Stalak za lepljivu traku Scotch Puž + 1 x magic tape 19mm x 33m",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4455.jpg"
+        },
+        {
+          "name": "Stalak za selotejp Offishop 15x33",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/20403.jpg"
+        },
+        {
+          "name": "Stalak za selotejp OP za 15/33",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/534.jpg"
+        },
+        {
+          "name": "Stalak za selotejp Dingli DL20081 15mmx33m",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/21712.jpg"
+        },
+        {
+          "name": "Čaša za olovke žičana četvrtasta",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/12002.jpg"
+        },
+        {
+          "name": "Ovlaživač za prste Mas",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/23213.png"
+        },
+        {
+          "name": "Kutija za spajalice MAS 802 žuta",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/21968.jpg"
+        },
+        {
+          "name": "Kutija za spajalice magnetna",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/875.jpg"
+        },
+        {
+          "name": "Čaša za olovke žičana okrugla",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4596.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "lepljive-trake-i-lepkovi",
+      "name": "Lepljive trake i lepkovi",
+      "description": "Lepljive trake i lepkovi",
+      "icon": "calculator ",
+      "products": [
+        {
+          "name": "Samolepljiva traka Aero Solvent 48mm/50m",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/11980.jpg"
+        },
+        {
+          "name": "Selotejp 15mm/20m providan – 1 kom",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1936.jpg"
+        },
+        {
+          "name": "Selotejp 15mm/25m providan - 1 kom",
+          "image": "http://kancelarijskipribor.rs/images/products/big/3945.jpg"
+        },
+        {
+          "name": "Selotejp 15mm/30m providan – 1 kom",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1937.jpg"
+        },
+        {
+          "name": "Selotejp 15mm/60m",
+          "image": "https://www.kancelarijskipribor.rs/proizvod/selotejp-15mm-60m"
+        },
+        {
+          "name": "Lepak OHO u stiku 9g",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1693.jpg"
+        },
+        {
+          "name": "Lepak u tubi 50ml",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/22830.jpg"
+        },
+        {
+          "name": "Krep traka 19mmx30m",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/893.jpg"
+        },
+        {
+          "name": "Lepak OHO standard 22g",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/23311.jpg"
+        },
+        {
+          "name": "Lepljiva traka Scotch 508 15mm x 33m - 1 kom",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2807.jpg"
+        },
+        {
+          "name": "Lepak OHO standard 40g",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/23312.jpg"
+        },
+        {
+          "name": "Lepak u stiku Scotch 8g",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4524.jpg"
+        },
+        {
+          "name": "Super lepak Loctite Power Flex 2gr",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2212.jpg"
+        },
+        {
+          "name": "Super lepak Loctite Super Bond 3gr",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2211.jpg"
+        },
+        {
+          "name": "Obostrano lepljiva traka 48mm x 20m",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/23302.jpg"
+        },
+        {
+          "name": "Lepak u traci Tesa 8.4mm x 5m 59090",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1399.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "busaci",
+      "name": "Bušači",
+      "description": "Bušači",
+      "icon": "calculator ",
+      "products": [
+        {
+          "name": "Bušač Kangaro Perfo 20 / do 20 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4268.jpg"
+        },
+        {
+          "name": "Bušač Dingli DL 0830 / do 30 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/17301.jpg"
+        },
+        {
+          "name": "Bušač Kangaro DP-520 / do 25 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4272.jpg"
+        },
+        {
+          "name": "Bušač Maped Metal Essential / do 30 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1503.jpg"
+        },
+        {
+          "name": "Bušač Novus Harmony B230 / do 30 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/7358.jpg"
+        },
+        {
+          "name": "Bušač Kangaro DP-720 / do 36 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/24244.png"
+        },
+        {
+          "name": "Bušač Kangaro Perfo 60 / do 60 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4271.jpg"
+        },
+        {
+          "name": "Bušač Deli E0160 crni / do 60 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2229.jpg"
+        },
+        {
+          "name": "Bušač Deli E0150 / do 150 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1297.jpg"
+        },
+        {
+          "name": "Bušač Leitz 5180 / do 65 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/5272.jpg"
+        },
+        {
+          "name": "Bušač Kangaro 2160N / do 150 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2672.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "kalkulatori",
+      "name": "Kalkulatori",
+      "description": "Kalkulatori",
+      "icon": "calculator ",
+      "products": [
+        {
+          "name": "Kalkulator SLD-100 Citizen džepni",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/6645.jpg"
+        },
+        {
+          "name": "Kalkulator KADIO KD-2385 12 cifara",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/23720.jpg"
+        },
+        {
+          "name": "Kalkulator Oylmpia 2501",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2170.jpg"
+        },
+        {
+          "name": "Kalkulator LCD-212 Olympia",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1457.jpg"
+        },
+        {
+          "name": "Kalkulator CMB-1201 Citizen",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/3621.jpg"
+        },
+        {
+          "name": "Kalkulator Olympia 2502",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2171.jpg"
+        },
+        {
+          "name": "Kalkulator Citizen SDC-812",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2683.jpg"
+        },
+        {
+          "name": "Kalkulator Olympia 2503",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2172.jpg"
+        },
+        {
+          "name": "Kalkulator Olympia LCD-5112",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/184.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "table",
+      "name": "Table",
+      "description": "Table",
+      "icon": "calculator ",
+      "products": [
+        {
+          "name": "Bela magnetna tabla alu ram 40x60cm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/22189.jpg"
+        },
+        {
+          "name": "Bela magnetna tabla alu ram 60x90cm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/22190.jpg"
+        },
+        {
+          "name": "Tabla bela magnetna Rocada 45x60cm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/22691.jpg"
+        },
+        {
+          "name": "Bela magnetna tabla alu ram 90x120cm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/22191.jpg"
+        },
+        {
+          "name": "Tabla bela zidna 2x3 TSA1890 90x180 cm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1151.jpg"
+        },
+        {
+          "name": "Tabla bela zidna 2x3 TSX71224 120x240",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/22178.jpg"
+        },
+        {
+          "name": "Tabla flipčart 2x3 TF01/70 70x100 cm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1168.jpg"
+        },
+        {
+          "name": "Tabla flipchart Rocada Transformer sa ramenima",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/22640.jpg"
+        },
+        {
+          "name": "Tabla bela magnetna dvostrana obrtna 60x90cm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/736.jpg"
+        },
+        {
+          "name": "Postolje univerzalno za table 120-240cm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1107.jpg"
+        },
+        {
+          "name": "Tabla bela okretna dvostrana 2x3 TOS129 Ecoboard 90X120cm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2577.jpg"
+        },
+        {
+          "name": "Tabla bela magnetna dvostrana obrtna 100x150cm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/3502.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "markeri-i-pribor-za-table",
+      "name": "Markeri i pribor za table",
+      "description": "Markeri i pribor za table",
+      "icon": "calculator ",
+      "products": [
+        {
+          "name": "Board marker A-plus easyWipe",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/22007.png"
+        },
+        {
+          "name": "Board marker Epene",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4842.jpg"
+        },
+        {
+          "name": "Magneti za belu tablu 5/1 - 3 cm Fornax",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/20211.jpg"
+        },
+        {
+          "name": "Brisač za belu tablu magnetni",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/21327.png"
+        },
+        {
+          "name": "Board marker Carioca Maxi plavi 429402 (6.0mm)",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/11669.jpg"
+        },
+        {
+          "name": "Board marker Edding 360",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4470.jpg"
+        },
+        {
+          "name": "Board marker Edding E-28 EcoLine 1.5-3mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/17439.png"
+        },
+        {
+          "name": "Sprej za čišćenje belih tabli Mark 250ml",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/726.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "potezni-nozevi",
+      "name": "Potezni noževi",
+      "description": "Potezni noževi",
+      "icon": "calculator ",
+      "products": [
+        {
+          "name": "Potezni nož Fellowes Neutron A4/320mm, 10 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/203.jpg"
+        },
+        {
+          "name": "Potezni nož Dahle 508, A3/460 mm, 6 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/3496.jpg"
+        },
+        {
+          "name": "Potezni nož Dahle 507, A4/320 mm, 8 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/3495.jpg"
+        }
+      ]
+    },
+
+    {
+      "slug": "stampaci",
+      "name": "Štampaci",
+      "description": "Štampaci",
+      "icon": "calculator ",
+      "products": [
+        {
+          "name": "Laserski štampač HP M111a",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/12591.jpg"
+        },
+        {
+          "name": "Laserski štampač HP M111w",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/12588.jpg"
+        },
+        {
+          "name": "Multifunkcijski uređaj Brother DCP1512EY",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/15421.jpg"
+        },
+        {
+          "name": "Multifunckijski uredjaj HP135A",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4086.jpg"
+        },
+        {
+          "name": "Laserski štampač HP Color Laser 150a",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/12597.jpg"
+        },
+        {
+          "name": "Multifunkcijski uredjaj HP LaserJet MFP M236sdn (9YG08A)",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/15852.jpg"
+        },
+        {
+          "name": "Multifunkcijski uređaj MFP HP M137FNW",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/17331.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "skeneri",
+      "name": "Skeneri",
+      "description": "Skeneri",
+      "icon": "calculator ",
+      "products": [
+        {
+          "name": "Skener Epson Perfection V19",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/5471.jpg"
+        },
+        {
+          "name": "Skener Brother ADS-1200",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/3831.jpg"
+        }
+      ]
+    },
+        {
+      "slug": "unistivaci-papira",
+      "name": "Uništivači papira",
+      "description": "Uništivači papira",
+      "icon": "calculator ",
+      "products": [
+        {
+          "name": "Uništivač dokumenata Fellowes 75Cs",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/131.jpg"
+        },
+        {
+          "name": "Uništivač dokumenata Fellowes 12C",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/22321.png"
+        },
+        {
+          "name": "Uništivač dokumenata DAHLE 404",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/5932.jpg"
+        },
+        {
+          "name": "Uništivač dokumenata Fellowes 92Cs",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/6664.jpg"
+        },
+        {
+          "name": "Uništivač dokumenata Fellowes 485i",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4261.jpg"
+        },
+        {
+          "name": "Uništivač dokumenata Fellowes 485Ci",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4262.jpg"
         }
       ]
     }
