@@ -152,7 +152,7 @@ async function renderHomepagePreview() {
   if (Array.isArray(data.groups) && data.groups.length) {
     const visibleGroups = data.groups.slice(0, 5);
     homeGrid.innerHTML = visibleGroups.map(createGroupListItem).join('');
-    homeAction.innerHTML = `<a class="btn outline" href="group.html">Pogledaj sve grupe</a>`;
+    homeAction.innerHTML = `<a class="btn outline" href="group.html">Pogledaj sve kategorije</a>`;
     return;
   }
 
