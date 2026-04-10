@@ -41,7 +41,7 @@ async function fetchProducts() {
     return await response.json();
   } catch (error) {
     console.error('Neuspešno učitavanje proizvoda', error);
-    return { categories: [] };
+    return { groups: [], categories: [] };
   }
 }
 
@@ -56,6 +56,10 @@ function iconMarkup(type) {
     label: '<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 16h20l6 8-6 8H14z" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="24" cy="24" r="3" fill="currentColor"/></svg>',
     cartridge: '<svg viewBox="0 0 48 48" aria-hidden="true"><rect x="14" y="14" width="20" height="20" rx="4" fill="none" stroke="currentColor" stroke-width="3"/><path d="M18 18h12" stroke="currentColor" stroke-width="3"/></svg>',
     usb: '<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M20 14v10" fill="none" stroke="currentColor" stroke-width="3"/><path d="M20 24h8v6h-8z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M24 14v-4" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="24" cy="30" r="2" fill="currentColor"/></svg>',
+    board:
+      '<svg viewBox="0 0 48 48" aria-hidden="true"><rect x="12" y="14" width="24" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="3"/><path d="M18 36h12" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M20 20h8" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>',
+    printer:
+      '<svg viewBox="0 0 48 48" aria-hidden="true"><rect x="14" y="12" width="20" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="3"/><rect x="12" y="22" width="24" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="3"/><path d="M16 28h16" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><circle cx="18" cy="26" r="1.8" fill="currentColor"/></svg>',
     default: '<svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="10" fill="none" stroke="currentColor" stroke-width="3"/></svg>'
   };
   return icons[type] || icons.default;
@@ -64,14 +68,33 @@ function iconMarkup(type) {
 function createCategoryCard(category, options = {}) {
   const showIcon = !options.noIcons;
   const showDescription = options.hideDescription !== true && !options.noIcons;
+  const catParam = category.slug || category.name;
+  const href = options.groupSlug
+    ? `category.html?cat=${encodeURIComponent(catParam)}&group=${encodeURIComponent(options.groupSlug)}`
+    : `category.html?cat=${encodeURIComponent(catParam)}`;
   return `
-    <a class="category-card ${options.listView ? 'list-view' : ''}" href="category.html?cat=${encodeURIComponent(category.name)}">
+    <a class="category-card ${options.listView ? 'list-view' : ''}" href="${href}">
       ${showIcon ? `<div class="icon-box icon-${category.icon}">${iconMarkup(category.icon)}</div>` : ''}
       <div class="category-body">
         <h3>${category.name}</h3>
         ${showDescription ? `<p>${category.description}</p>` : ''}
       </div>
       ${options.noIcons ? '' : `<span class="category-link">Prikaži proizvode</span>`}
+    </a>
+  `;
+}
+
+function createGroupListItem(group) {
+  return `
+    <a class="group-row" href="catalog.html?group=${encodeURIComponent(group.slug)}">
+      <div class="icon-box icon-${group.icon}">${iconMarkup(group.icon)}</div>
+      <div class="group-row-body">
+        <h3>${group.name}</h3>
+        ${group.description ? `<p>${group.description}</p>` : ''}
+      </div>
+      <span class="group-row-arrow" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M10 7l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
     </a>
   `;
 }
@@ -126,6 +149,13 @@ async function renderHomepagePreview() {
   if (!homeGrid || !homeAction) return;
 
   const data = await fetchProducts();
+  if (Array.isArray(data.groups) && data.groups.length) {
+    const visibleGroups = data.groups.slice(0, 5);
+    homeGrid.innerHTML = visibleGroups.map(createGroupListItem).join('');
+    homeAction.innerHTML = `<a class="btn outline" href="group.html">Pogledaj sve grupe</a>`;
+    return;
+  }
+
   const visibleCategories = data.categories.slice(0, 5);
 
   homeGrid.innerHTML = visibleCategories
@@ -135,23 +165,69 @@ async function renderHomepagePreview() {
   homeAction.innerHTML = `<a class="btn outline" href="catalog.html">Pogledaj sve kategorije</a>`;
 }
 
+async function renderGroupPage() {
+  const list = document.querySelector('.group-list');
+  if (!list) return;
+
+  const data = await fetchProducts();
+  const groups = Array.isArray(data.groups) ? data.groups : [];
+
+  if (!groups.length) {
+    list.innerHTML = '<p class="empty-state">Trenutno nema definisanih grupa.</p>';
+    return;
+  }
+
+  list.innerHTML = groups.map(createGroupListItem).join('');
+}
+
 async function renderCatalogPage() {
   const categoryContainer = document.querySelector('.category-list');
   if (!categoryContainer) return;
 
+  const title = document.querySelector('.catalog-title');
+  const subtitle = document.querySelector('.catalog-subtitle');
+  const backLink = document.querySelector('.catalog-back-link');
+
+  const params = new URLSearchParams(window.location.search);
+  const groupSlug = params.get('group');
+
   const data = await fetchProducts();
-  const visibleCategories = data.categories.slice(0, 5);
-  const hiddenCategories = data.categories.slice(5);
+  const groups = Array.isArray(data.groups) ? data.groups : [];
+  const selectedGroup = groupSlug ? groups.find((group) => group.slug === groupSlug) : null;
+
+  const categoriesBySlug = Object.fromEntries((data.categories || []).map((category) => [category.slug, category]));
+  const categoriesForView = selectedGroup
+    ? (selectedGroup.categories || []).map((slug) => categoriesBySlug[slug]).filter(Boolean)
+    : data.categories;
+
+  if (title && subtitle) {
+    if (selectedGroup) {
+      title.textContent = selectedGroup.name;
+      subtitle.textContent = 'Izaberite kategoriju iz odabrane grupe.';
+    } else {
+      title.textContent = 'Kategorije';
+      subtitle.textContent = 'Pregledajte sve dostupne kategorije ili izaberite grupu.';
+    }
+  }
+
+  if (backLink) {
+    backLink.href = selectedGroup ? 'group.html' : 'group.html';
+  }
+
+  const visibleCategories = categoriesForView.slice(0, 8);
+  const hiddenCategories = categoriesForView.slice(8);
 
   categoryContainer.innerHTML = visibleCategories
-    .map((category) => createCategoryCard(category, { noIcons: true, hideDescription: true, listView: true }))
+    .map((category) =>
+      createCategoryCard(category, { noIcons: true, hideDescription: true, listView: true, groupSlug: selectedGroup?.slug })
+    )
     .join('');
 
   bindLoadMore(
     document.querySelector('.catalog-action'),
     hiddenCategories,
     categoryContainer,
-    { noIcons: true, hideDescription: true }
+    { noIcons: true, hideDescription: true, groupSlug: selectedGroup?.slug }
   );
 }
 
@@ -159,14 +235,24 @@ async function renderCategoryPage() {
   const productContainer = document.querySelector('.category-products');
   const title = document.querySelector('.category-title');
   const subtitle = document.querySelector('.category-subtitle');
+  const backLink = document.querySelector('.category-back-link');
   if (!productContainer || !title || !subtitle) return;
 
   const params = new URLSearchParams(window.location.search);
   const selected = params.get('cat');
+  const groupSlug = params.get('group');
   const data = await fetchProducts();
+  const groups = Array.isArray(data.groups) ? data.groups : [];
+  const selectedGroup = groupSlug ? groups.find((group) => group.slug === groupSlug) : null;
+
   const category = data.categories.find(
     (item) => item.name.toLowerCase() === String(selected).toLowerCase() || item.slug === String(selected).toLowerCase()
   );
+
+  if (backLink) {
+    backLink.href = selectedGroup ? `catalog.html?group=${encodeURIComponent(selectedGroup.slug)}` : 'group.html';
+    backLink.textContent = selectedGroup ? 'Nazad na kategorije' : 'Nazad na grupe';
+  }
 
   if (!category) {
     title.textContent = 'Kategorija nije pronađena';
@@ -176,10 +262,13 @@ async function renderCategoryPage() {
   }
 
   title.textContent = category.name;
-  subtitle.textContent = 'Prikaz proizvoda iz odabrane kategorije.';
+  subtitle.textContent = selectedGroup
+    ? `Prikaz proizvoda iz grupe: ${selectedGroup.name}.`
+    : 'Prikaz proizvoda iz odabrane kategorije.';
   productContainer.innerHTML = category.products.map(createProductCard).join('');
 }
 
 renderHomepagePreview();
+renderGroupPage();
 renderCatalogPage();
 renderCategoryPage();

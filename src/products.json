@@ -1,4 +1,55 @@
 {
+  "groups": [
+    {
+      "slug": "pribor-za-pisanje",
+      "name": "Pribor za pisanje",
+      "description": "Hemijske i grafitne olovke, roleri, tehničke olovke, tekst markeri i flomasteri.",
+      "icon": "pen",
+      "categories": [
+        "hemijske-olovke",
+        "gel-olovke-i-rolleri",
+        "tehnicke-olovke",
+        "grafitne-olovke",
+        "markeri",
+        "flomasteri"
+      ]
+    },
+    {
+      "slug": "papir-nalepnice-blokovi-koverte",
+      "name": "Papir, nalepnice, blokčići i koverte",
+      "description": "Papir za štampanje, nalepnice, blokovi i koverte za urednu organizaciju.",
+      "icon": "paper",
+      "categories": ["papir-za-stampanje", "nalepnice-blokovi-koverte"]
+    },
+    {
+      "slug": "odlaganje-dokumentacije",
+      "name": "Odlaganje dokumentacije",
+      "description": "Registratori, fascikle, folije, pregradni kartoni i police za dokumenta.",
+      "icon": "binder",
+      "categories": ["registratori", "fascikle", "folije", "pregradni-karton", "police-za-dokumenta"]
+    },
+    {
+      "slug": "kancelarijski-pribor",
+      "name": "Kancelarijski pribor",
+      "description": "Heftalice, pribor za sto, trake i lepkovi, bušači i kalkulatori.",
+      "icon": "clip",
+      "categories": ["heftalice-i-rasheftivaci", "pribor-za-radni-sto", "lepljive-trake-i-lepkovi", "busaci", "kalkulatori"]
+    },
+    {
+      "slug": "table-i-pribor-za-table",
+      "name": "Table i pribor za table",
+      "description": "Table, markeri i prateći pribor za prezentacije i učionice.",
+      "icon": "board",
+      "categories": ["table", "markeri-i-pribor-za-table"]
+    },
+    {
+      "slug": "biro-masine-i-uredjaji",
+      "name": "Biro mašine i uređaji u kancelariji",
+      "description": "Potezni noževi, štampači, skeneri i uništivači papira.",
+      "icon": "printer",
+      "categories": ["potezni-nozevi", "stampaci", "skeneri", "unistivaci-papira"]
+    }
+  ],
   "categories": [
     {
       "slug": "hemijske-olovke",
@@ -273,7 +324,7 @@
       ]
     },
     {
-      "slug": "papir",
+      "slug": "papir-za-stampanje",
       "name": "Papir za štampanje",
       "description": "Papir za štampu, fotokopiranje i beleške za sve kancelarijske potrebe.",
       "icon": "paper",
@@ -325,7 +376,7 @@
       ]
     },
     {
-      "slug": "papir",
+      "slug": "nalepnice-blokovi-koverte",
       "name": "Nalepnice, blokovi i koverte",
       "description": "Nalepnice, blokovi i koverte",
       "icon": "paper",
