@@ -10,6 +10,93 @@ if (menuBtn && nav) {
   });
 }
 
+function upsertMeta(selector, attrs) {
+  let el = document.querySelector(selector);
+  if (!el) {
+    el = document.createElement('meta');
+    for (const [key, value] of Object.entries(attrs)) {
+      if (key !== 'content') el.setAttribute(key, value);
+    }
+    document.head.appendChild(el);
+  }
+  if (typeof attrs.content === 'string') el.setAttribute('content', attrs.content);
+  return el;
+}
+
+function setMetaContent(type, key, content) {
+  if (!content) return;
+  if (type === 'name') upsertMeta(`meta[name="${key}"]`, { name: key, content });
+  if (type === 'property') upsertMeta(`meta[property="${key}"]`, { property: key, content });
+}
+
+function setCanonicalToCurrentUrl() {
+  const url = window.location.href.split('#')[0];
+  let canonical = document.querySelector('link[rel="canonical"]');
+  if (!canonical) {
+    canonical = document.createElement('link');
+    canonical.rel = 'canonical';
+    document.head.appendChild(canonical);
+  }
+  canonical.href = url;
+  setMetaContent('property', 'og:url', url);
+  setMetaContent('name', 'twitter:url', url);
+}
+
+function setSeo({ title, description }) {
+  if (title) {
+    document.title = title;
+    setMetaContent('property', 'og:title', title);
+    setMetaContent('name', 'twitter:title', title);
+  }
+
+  if (description) {
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) metaDescription.setAttribute('content', description);
+    setMetaContent('property', 'og:description', description);
+    setMetaContent('name', 'twitter:description', description);
+  }
+}
+
+function setStructuredData({ title, description } = {}) {
+  const script = document.querySelector('#structured-data');
+  if (!script) return;
+
+  const origin = window.location.origin;
+  const url = window.location.href.split('#')[0];
+  const iconHref = document.querySelector('link[rel="icon"]')?.getAttribute('href');
+  const logoUrl = iconHref ? new URL(iconHref, origin).toString() : new URL('src/images/logo2.png', origin).toString();
+
+  const data = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: 'Imperium Office',
+      url: origin,
+      logo: logoUrl,
+      email: 'imperiumoffice11@gmail.com',
+      telephone: ['+38163285488', '+381652495022']
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      name: 'Imperium Office',
+      url: origin
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      url,
+      name: title || document.title,
+      description: description || document.querySelector('meta[name="description"]')?.getAttribute('content') || undefined
+    }
+  ];
+
+  script.textContent = JSON.stringify(data);
+}
+
+setCanonicalToCurrentUrl();
+setStructuredData();
+
 const observer = new IntersectionObserver(
   (entries) => {
     for (const entry of entries) {
@@ -111,10 +198,10 @@ function createProductCard(product) {
         <p class="product-note">Kontaktirajte nas za porudžbinu.</p>
       </div>
       <div class="product-card-meta">
-        <a class="product-chip" href="tel:+381601234567" aria-label="Pozovite nas" title="Pozovite nas">
+        <a class="product-chip" href="tel:+38163285488" aria-label="Pozovite nas" title="Pozovite nas">
           <svg class="chip-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.62 10.79a15.05 15.05 0 006.59 6.59l1.54-1.54a1 1 0 011.06-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1V21a1 1 0 01-1 1C9.28 22 2.5 15.22 2.5 7a1 1 0 011-1h3.5a1 1 0 011 1c0 1.24.2 2.45.57 3.57a1 1 0 01-.24 1.06l-1.71 1.71z"/></svg>
         </a>
-        <a class="product-chip" href="mailto:office@imperiumoffice.rs" aria-label="Pošaljite mejl" title="Pošaljite mejl">
+        <a class="product-chip" href="mailto:imperiumoffice11@gmail.com" aria-label="Pošaljite mejl" title="Pošaljite mejl">
           <svg class="chip-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 6a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2H5a2 2 0 01-2-2V6zm2 .5l7 4.5 7-4.5v-.5H5v.5zm14 2.39l-7 4.5-7-4.5V18h14V8.89z"/></svg>
         </a>
       </div>
@@ -178,6 +265,12 @@ async function renderGroupPage() {
   }
 
   list.innerHTML = groups.map(createGroupListItem).join('');
+
+  setSeo({
+    title: 'Kategorije - Imperium Office',
+    description: 'Pregled kategorija kancelarijskog materijala Imperium Office.'
+  });
+  setStructuredData({ title: document.title });
 }
 
 async function renderCatalogPage() {
@@ -229,6 +322,13 @@ async function renderCatalogPage() {
     categoryContainer,
     { noIcons: true, hideDescription: true, groupSlug: selectedGroup?.slug }
   );
+
+  const pageTitle = selectedGroup ? `${selectedGroup.name} - Imperium Office` : 'Katalog - Imperium Office';
+  const pageDescription = selectedGroup
+    ? `Katalog kategorija za grupu: ${selectedGroup.name}.`
+    : 'Katalog kategorija kancelarijskog materijala Imperium Office.';
+  setSeo({ title: pageTitle, description: pageDescription });
+  setStructuredData({ title: pageTitle, description: pageDescription });
 }
 
 async function renderCategoryPage() {
@@ -258,6 +358,11 @@ async function renderCategoryPage() {
     title.textContent = 'Kategorija nije pronađena';
     subtitle.textContent = 'Molimo izaberite ispravnu kategoriju iz kataloga.';
     productContainer.innerHTML = '<p class="empty-state">Nema proizvoda za ovu kategoriju.</p>';
+    setSeo({
+      title: 'Kategorija nije pronađena - Imperium Office',
+      description: 'Tražena kategorija nije pronađena. Vratite se na katalog i izaberite ispravnu kategoriju.'
+    });
+    setStructuredData({ title: document.title });
     return;
   }
 
@@ -266,6 +371,13 @@ async function renderCategoryPage() {
     ? `Prikaz proizvoda iz grupe: ${selectedGroup.name}.`
     : 'Prikaz proizvoda iz odabrane kategorije.';
   productContainer.innerHTML = category.products.map(createProductCard).join('');
+
+  const pageTitle = `${category.name} - Imperium Office`;
+  const pageDescription = selectedGroup
+    ? `Proizvodi iz kategorije: ${category.name} (grupa: ${selectedGroup.name}).`
+    : `Proizvodi iz kategorije: ${category.name}.`;
+  setSeo({ title: pageTitle, description: pageDescription });
+  setStructuredData({ title: pageTitle, description: pageDescription });
 }
 
 renderHomepagePreview();
