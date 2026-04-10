@@ -1,304 +1,740 @@
 {
   "categories": [
     {
+      "slug": "hemijske-olovke",
+      "name": "Hemijske olovke",
+      "description": "Hemijske olovke",
+      "icon": "paper",
+      "products": [
+        {
+          "name": "Hemijska olovka Aihao 567 0.7mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4779.jpg"
+        },
+        {
+          "name": "Hemijska olovka Linc Tip Top Grip 0.7mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/7441.jpg"
+        },
+        {
+          "name": "Hemijska olovka A-plus TB309600 NanoSlick 0.6mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/22929.png"
+        },
+        {
+          "name": "Hemijska olovka Office shop easy glide plava 1.0mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/11419.jpg"
+        },
+        {
+          "name": "Hemijska olovka Linc MR CLIC 0.7mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/7663.jpg"
+        },
+        {
+          "name": "Hemijska olovka Bic Gelocity Stic 0.5mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/12619.jpg"
+        },
+        {
+          "name": "Hemijska olovka Pilot Super grip 0.7mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4321.jpg"
+        },
+        {
+          "name": "Hemijska olovka Pilot Super Grip G RT M plava 1.0mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/11524.jpg"
+        },
+        {
+          "name": "Hemijska olovka Pilot Acroball 0.7mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4320.jpg"
+        },
+        {
+          "name": "Hemijska olovka Pilot Synergy Point 0.5mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/6578.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "gel-olovke-i-rolleri",
+      "name": "Gel olovke i roleri",
+      "description": "Gel olovke i roleri",
+      "icon": "paper",
+      "products": [
+        {
+          "name": "Roler gel Artriink Power 0.5mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/17487.jpg"
+        },
+        {
+          "name": "Gel olovka Epene EP1007 0.7mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4780.jpg"
+        },
+        {
+          "name": "Gel olovka Octopus Colour Zone 0.7mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2388.jpg"
+        },
+        {
+          "name": "Gel olovka Pilot Super gel 0.7 mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/5332.jpg"
+        },
+        {
+          "name": "Roler Edding Crystaljelly E-2185 0.7mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/5346.jpg"
+        },
+        {
+          "name": "Gel olovka Pilot G-1 0.7mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4236.png"
+        },
+        {
+          "name": "Roler Pilot Hi-Tecpoint V7 0.7mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/5469.jpg"
+        },
+        {
+          "name": "Gel olovka Pilot G2 pastel 0.7mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/5351.jpg"
+        },
+        {
+          "name": "Gel olovka Pilot G2 Victoria 0.7mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/5352.jpg"
+        },
+        {
+          "name": "Roler Pilot Frixion Ball 0.5mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4304.jpg"
+        },
+        {
+          "name": "Refil za roler Parker Royal Quink M - Crna",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/15784.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "tehnicke-olovke",
+      "name": "Tehničke olovke",
+      "description": "Tehničke olovke",
+      "icon": "paper",
+      "products": [
+        {
+          "name": "Mine za tehničku olovku Faber Castell 0.7mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/12123.jpg"
+        },
+        {
+          "name": "Mine za tehničku olovku Faber Castell 0.5mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/12021.jpg"
+        },
+        {
+          "name": "Mine za tehničku olovku Pilot 0.7mm HB",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/12147.jpg"
+        },
+        {
+          "name": "Tehnička olovka Pentel Fiesta II 0.5mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2009.jpg"
+        },
+        {
+          "name": "Mine za tehničku olovku Staedtler 0,7mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/655.jpg"
+        },
+        {
+          "name": "Mine za tehničku olovku Staedtler 0,5mm HB",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/654.jpg"
+        },
+        {
+          "name": "Tehnička olovka Staedtler 777 0.5mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/11504.jpg"
+        },
+        {
+          "name": "Tehnička olovka Faber Castell Matic 0.7mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/21601.png"
+        },
+        {
+          "name": "Tehnička olovka Rotring Tikky Retro 0.7mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/13694.png"
+        },
+        {
+          "name": "Tehnička olovka Staedtler Happy 9 777 0.5mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/11520.jpg"
+        },
+        {
+          "name": "Tehnička olovka Rotring Tikky Retro 0.5mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/13701.jpg"
+        },
+        {
+          "name": "Tehnička olovka Faber Castel GRIP 0.7mm 1347",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1290.jpg"
+        },
+        {
+          "name": "Tehnička Olovka Rotring 600 0.5mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/11276.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "grafitne-olovke",
+      "name": "Grafitne olovke",
+      "description": "Grafitne olovke",
+      "icon": "paper",
+      "products": [
+        {
+          "name": "Grafitna olovka sa gumicom HB",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/11341.jpg"
+        },
+        {
+          "name": "Grafitna olovka Officehop HB",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/11338.jpg"
+        },
+        {
+          "name": "Grafitna olovka Staedtler Norika HB sa gumicom",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/658.jpg"
+        },
+        {
+          "name": "Grafitna olovka Maped sa gumicom HB",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/22842.jpg"
+        },
+        {
+          "name": "Grafitna olovka Staedtler Noris HB",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/660.jpg"
+        },
+        {
+          "name": "Grafitna olovka Faber Castel Grip Two Tone B",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/11381.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "markeri",
+      "name": "Tekst markeri",
+      "description": "Tekst markeri",
+      "icon": "paper",
+      "products": [
+        {
+          "name": "Signir Pelikan 490",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/7530.jpg"
+        },
+        {
+          "name": "Tekst marker Signir Faber Castell 46 pastel",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/6215.jpg"
+        },
+        {
+          "name": "Tekst marker Signir Faber Castell 48",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/7426.jpg"
+        },
+        {
+          "name": "Signir Faber Castell set 48 1/4",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2131.jpg"
+        },
+        {
+          "name": "Signir Faber Castell set 48 1/8",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2132.jpg"
+        },
+        {
+          "name": "Tekst marker signir Epene 121",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4813.jpg"
+        },
+        {
+          "name": "Tekstmarker signir Schneider Job",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/11632.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "flomasteri",
+      "name": "Flomasteri",
+      "description": "Flomasteri",
+      "icon": "paper",
+      "products": [
+        {
+          "name": "Flomaster za CD Centropen 4606 1.0mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/12184.jpg"
+        },
+        {
+          "name": "Flomaster za CD Centropen 4616 0.6mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/12151.jpg"
+        },
+        {
+          "name": "Flomaster lajner Faber Castell 1516 0.4mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4541.jpg"
+        },
+        {
+          "name": "Flomaster lajner Faber Castell 1511 0.4mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4540.jpg"
+        },
+        {
+          "name": "Flomaster lajner Pilot Drawing Pen",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2132.jpg"
+        },
+        {
+          "name": "Flomaster Pilot Twin za CD dvostrani",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/7826.jpg"
+        },
+        {
+          "name": "Flomaster lajner Faber Castell 1516 0.4mm 1/10",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1704.jpg"
+        }
+        ,
+        {
+          "name": "Flomaster Edding Drawliner E-1880 set 1/4",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/12182.jpg"
+        },
+        {
+          "name": "Flomaster Lajner Faber Castell 0.4mm 1/20",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4150.jpg"
+        }
+      ]
+    },
+    {
       "slug": "papir",
-      "name": "Papir",
+      "name": "Papir za štampanje",
       "description": "Papir za štampu, fotokopiranje i beleške za sve kancelarijske potrebe.",
       "icon": "paper",
       "products": [
         {
-          "name": "Standard A4 papir",
+          "name": "Fotokopir papir Dolphin A4 80g",
           "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
         },
         {
-          "name": "Fotokop papir",
-           "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Fotokopir papir euroBasic A4 80g",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/21376.jpg"
         },
         {
-          "name": "Obostrani papir",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Fotokopir papir Sylvamo Clio A4 80g",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/20070.jpg"
         },
         {
-          "name": "Blok za beleške",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Fotokopir papir IQ Economy+ A4 80g",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1389.jpg"
         },
         {
-          "name": "Grafički papir",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Fotokopir papir Navigator A4 80g",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/21808.png"
         },
         {
-          "name": "Grafički papir",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Fotokopir papir Double A Premium A4 80g",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/21804.png"
+        },
+        {
+          "name": "Fotokopir papir Color Copy A4/120g/250 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/22558.jpg"
+        },
+        {
+          "name": "Fotokopir papir Color Copy A4/160g/250 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/22558.jpg"
+        },
+        {
+          "name": "Fotokopir papir Color Copy A4/160g/250 listova",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/22558.jpg"
+        },
+        {
+          "name": "Fotokopir papir Mondi Everywhere A4 80g",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2237.jpg"
+        },
+        {
+          "name": "Fotokopir papir PPC A4 75g",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/22358.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "papir",
+      "name": "Nalepnice, blokovi i koverte",
+      "description": "Nalepnice, blokovi i koverte",
+      "icon": "paper",
+      "products": [
+        {
+          "name": "Etikete Herma 19x27mm 1/960 bele",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/6252.jpg"
+        },
+        {
+          "name": "Etikete Herma 13x40mm 1/896 bela",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/6252.jpg"
+        },
+        {
+          "name": "Etikete Herma 19x40mm 1/640 bela",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/6252.jpg"
+        },
+        {
+          "name": "Nalepnice /etikete/ Mistick 70x42.4mm A4/21",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/13934.jpg"
+        },
+        {
+          "name": "Nalepnice /etikete/ Mistick 70x49.5mm A4/18",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/13934.jpg"
+        },
+        {
+          "name": "Nalepnice /etikete/ Mistick 70x16.9mm A4/51",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/13934.jpg"
+        },
+        {
+          "name": "Nalepnice /etikete/ Mistick 70x50.8mm A4/15",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/13934.jpg"
+        },
+        {
+          "name": "Nalepnice /etikete/ Mistick 210x297mm A4/1",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/13934.jpg"
+        },
+        {
+          "name": "Nalepnice /etikete/ Mistick 70x32mm A4/27",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/13934.jpg"
+        },
+        {
+          "name": "Nalepnice /etikete/ Herma 97X67.7mm A4/8 1/25",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/6318.jpg"
+        },
+        {
+          "name": "Nalepnice /etikete/ Herma 105X48mm A4/12 1/25",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/6318.jpg"
+        },
+
+        {
+          "name": "Termo etikete u rolni Fornax 100x100mm 1/1000",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/5111.jpg"
+        },
+        {
+          "name": "Etikete u rolni 26x16mm četvrtaste dvoredne pk36 Printex",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/12150.jpg"
+        },
+        {
+          "name": "Samolepljivi listići Fornax 100 lis, 75x75mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/889.jpg"
+        },
+        {
+          "name": "Indeksi strelice PVC 12mm x 45mm 5x25 kom",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/21714.jpg"
+        },
+        {
+          "name": "Page Marker 12mmx50mm PASTEL /4x50 lista/ 3E 901000",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/12018.jpg"
+        },
+        {
+          "name": "Samolepljivi listići Fornax 80 lis, 75x75mm neon",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4688.jpg"
+        },
+        {
+          "name": "Samolepljivi Blokčići 75x75 Info Notes pastel",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/7675.jpg"
+        },
+        {
+          "name": "Page marker Donau pravougaoni 12x45mm 5x25l",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1958.jpg"
+        },
+        {
+          "name": "Papiri za beleške Mark 9x9cm 600 lista",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1438.jpg"
+        },
+        {
+          "name": "Kocka samolepljiva Fornax 450 lis, 75x75mm pastel mix",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1273.jpg"
+        },
+        {
+          "name": "Papiri za beleške Fornax 9x9cm, 900 lis, pastelne boje",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/3546.jpg"
+        },
+        {
+          "name": "Papiri za beleške Herlitz 9x9x9cm 700 lista - Bela",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/3521.jpg"
+        },
+        {
+          "name": "Papiri za beleške u kutiji Herlitz 9x9x9cm 700 lista - Crna",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/17333.jpg"
+        },
+        {
+          "name": "Koverta ameriken BP 11x23 (1/1000)",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/13415.jpg"
+        },
+        {
+          "name": "Koverta B6 12.3x17.5cm plava samolepljiva",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/499.jpg"
+        },
+        {
+          "name": "Koverta ameriken DP 11x23 (1/1000)",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/13416.jpg"
+        },
+        {
+          "name": "Koverta ameriken LP 11x23 (1/1000)",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/13417.jpg"
+        },
+        {
+          "name": "Koverta za CD bez prozora",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/504.jpg"
+        },
+        {
+          "name": "Koverta za CD sa prozorom",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/7015.jpg"
+        },
+        {
+          "name": "Koverta B5 17,6x25cm roza samolepljiva",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/500.jpg"
+        },
+        {
+          "name": "Koverta Pigna Competitor A4 23x33cm bela samolepljiva",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/496.jpg"
+        },
+        {
+          "name": "Koverta 30x40 1/500 bela",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/13665.jpg"
+        },
+        {
+          "name": "Koverat vazdušni No.1 10x16.5cm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/24253.png"
         }
       ]
     },
     {
       "slug": "registratori",
       "name": "Registratori",
-      "description": "Registratori, fascikle i sistemi za organizaciju dokumenata.",
+      "description": "Registratori",
       "icon": "binder",
       "products": [
         {
-          "name": "Registrator A4",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
-
+          "name": "Registrator Fornax Prestige A4 80mm sa kutijom",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/23433.png"
         },
         {
-          "name": "Plastični registrator",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Registrator Fornax Prestige A4 60mm sa kutijom",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4251.jpg"
         },
         {
-          "name": "Mapa sa gumom",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Registrator Fornax A4 60mm sa kutijom",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/16875.jpg"
         },
         {
-          "name": "Dokument fascikla",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Registrator Mark A4 80mm sa kutijom",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4228.jpg"
         },
         {
-          "name": "Prstenasta mapa",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Registrator Fornax Master A4 80mm samostojeći",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4248.jpg"
+        },
+        {
+          "name": "Registrator Fornax Premium A4 55mm samostojeći",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4249.jpg"
+        },
+        {
+          "name": "Registrator Mark A4 50mm sa kutijom",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4506.jpg"
         }
       ]
     },
     {
-      "slug": "toneri-i-kartridzi",
-      "name": "Toneri i kartridži",
-      "description": "Originalni i kompatibilni toneri za sve popularne štampače.",
+      "slug": "fascikle",
+      "name": "Fascikle",
+      "description": "Kartonske fascikle, PVC fascikle, Fasickle sa pregradama...",
       "icon": "cartridge",
       "products": [
         {
-          "name": "Toner za laser štampač",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Fascikla polumehanika 1/50 - Teget",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/24422.jpg"
         },
         {
-          "name": "Kompatibilni kartridž",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Hromokartonska fascikla A4 280g u boji",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4422.jpg"
         },
         {
-          "name": "Boja za Inkjet",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Fascikla PVC sa polumehanikom i perforacijom Donau",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/7429.jpg"
         },
         {
-          "name": "Set tonera za HP",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Fascikla kartonska sa gumicom A4 400gr",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/22824.jpg"
+        },
+        {
+          "name": "Fascikla sa zipom OP A4",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1452.jpg"
+        },
+        {
+          "name": "Hromokartonska fascikla A3 280g bela",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1401.jpg"
+        },
+        {
+          "name": "Fascikla plastificirana Optima 600g sa gumicom",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/24033.jpg"
+        },
+        {
+          "name": "Fascikla pismo Snopake Polyfile Electra ameriken 1/1",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/11037.jpg"
+        },
+        {
+          "name": "Fascikla Exacompta sa klapnom i gumicom A4 chartreuse",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/6027.jpg"
+        },
+        {
+          "name": "Torba sa ručkom Spree bez pregrada A4 PVC",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/7246.jpg"
+        },
+        {
+          "name": "Fascikla Optima Exabox 5cm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/7564.jpg"
+        },
+        {
+          "name": "Fascikla Expanding organizer Viquel 12 pregrada",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2766.jpg"
+        },
+        {
+          "name": "Mehanizam za PVC fascikle",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1031.jpg"
         }
       ]
     },
     {
-      "slug": "olovke-i-markeri",
-      "name": "Olovke i markeri",
-      "description": "Hemijske, gel, marker i flomaster olovke za svaki kancelarijski zadatak.",
+      "slug": "folije",
+      "name": "Folije",
+      "description": "'U' folije, 'L' folije...",
       "icon": "pen",
       "products": [
         {
-          "name": "Set hemijskih olovaka",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
-
+          "name": "U folija FoliaExpert 40mic A4+ Crystal 1/100",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/24396.png"
         },
         {
-          "name": "Kvalitetni markeri",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "U folija FoliaExpert 60mic A4+ Crystal 1/100",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/24393.png"
         },
         {
-          "name": "Permanent marker",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "U folija FoliaExpert 80mic A4+ Crystal 1/100",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/24391.png"
         },
         {
-          "name": "Fini gel penkali",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "U folija Fornax kristal 90mic 1/50",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/145.jpg"
+        },
+        {
+          "name": "L folija FoliaExpert 80 mic A4+ Orange Peel 1/100",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/18070.jpg"
+        },
+        {
+          "name": "L folija Duplo Office u boji 90mic 1/100",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/7397.jpg"
+        },
+        {
+          "name": "U folija Fornax kristal 150 mic 1/50",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/3051.jpg"
         }
       ]
     },
     {
-      "slug": "organizatori",
-      "name": "Organizatori",
-      "description": "Police, držači i organizatori da svaki radni sto ostane uredan.",
+      "slug": "pregradni-karton",
+      "name": "Pregradni kartoni",
+      "description": "Pregradni karton - pvc, pregradni karton - kartonski",
       "icon": "boxes",
       "products": [
         {
-          "name": "Sto za dokumente",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Pregradni karton A4 Exacompta 2006E kolor 6/1",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/3518.jpg"
         },
         {
-          "name": "Stalak za fascikle",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Pregradni karton A4 Exacompta 1410E kolor 10/1",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/1226.jpg"
         },
         {
-          "name": "Kutija za olovke",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Pregradni karton O+CO skraćeni 240x105cm 1/100",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/7416.jpg"
         },
         {
-          "name": "Modularni organizator",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Pregradni indeksi PP sa numeracijom 1-31",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/2801.jpg"
+        },
+        {
+          "name": "Pregradni karton A4 295x230mm intenzivni 100/1",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/5091.jpg"
+        },
+        {
+          "name": "Pregradni karton A4 jan-dec 155g 12/1",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/5968.jpg"
         }
       ]
     },
     {
-      "slug": "spone-i-kope",
-      "name": "Spone i kopče",
-      "description": "Sve vrste spojnica za papir, kartuše i metalne kopče.",
+      "slug": "police-za-dokumenta",
+      "name": "Police za dokumenta",
+      "description": "Horiontalne i vertikalne police za organizaciju dokumenata na radnom stolu.",
       "icon": "clip",
       "products": [
         {
-          "name": "Kancelarijske spone",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Uspravni držač za dokumentaciju SmartBoxPro kartonski arhiv",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4681.jpg"
         },
         {
-          "name": "Metalne kopče",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Uspravni držač za dokumentaciju SmartBoxPro kartonski lux",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4685.jpg"
         },
         {
-          "name": "Plastične kopče",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Polica za dokumentaciju Han C4 Standard",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/17697.jpg"
         },
         {
-          "name": "Spajalice za žice",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Polica za dokumentaciju Han C4 Transparent",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4661.jpg"
+        },
+        {
+          "name": "Uspravni držač za dokumentaciju Han Loop i-colours",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4631.jpg"
+        },
+        {
+          "name": "Polica za dokumentaciju Han Junior Transparent",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/17706.jpg"
+        },
+        {
+          "name": "Uspravni držač za dokumentaciju Han Klassik - Crvena",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4647.jpg"
+        },
+        {
+          "name": "Polica za dokumentaciju 1/3 žičana",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4598.jpg"
+        },
+        {
+          "name": "Polica za dokumentaciju 1/5 žičana",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/5340.jpg"
+        },
+        {
+          "name": "Polica za dokumentaciju Han C4 XXL Transparent",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4669.jpg"
+        },
+        {
+          "name": "Police za dokumentaciju Han Impuls 4 fioke",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4674.jpg"
+        },
+        {
+          "name": "Police za dokumentaciju Fellowes G2D 4 fioke",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/5281.jpg"
         }
       ]
     },
-    {
-      "slug": "stolna-oprema",
-      "name": "Stolna oprema",
-      "description": "Podmetači, stalci i sve tamodravne sitnice koje urede svaki radni sto.",
-      "icon": "tape",
+     {
+      "slug": "hemijske-olovke",
+      "name": "Hemijske olovke",
+      "description": "Hemijske olovke",
+      "icon": "paper",
       "products": [
         {
-          "name": "Podmetač za miš",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Hemijska olovka Aihao 567 0.7mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4779.jpg"
         },
         {
-          "name": "Držač dokumenta",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Hemijska olovka Linc Tip Top Grip 0.7mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/7441.jpg"
         },
         {
-          "name": "Stalak za telefon",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Hemijska olovka A-plus TB309600 NanoSlick 0.6mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/22929.png"
         },
         {
-          "name": "Magnetni organizator",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
-        }
-      ]
-    },
-    {
-      "slug": "beleške-i-blokovi",
-      "name": "Beleške i blokovi",
-      "description": "Blokovi, sticky notes i memorandumi za brzu evidenciju i poruke.",
-      "icon": "label",
-      "products": [
-        {
-          "name": "Sticky notes set",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Hemijska olovka Office shop easy glide plava 1.0mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/11419.jpg"
         },
         {
-          "name": "Linični blok",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Hemijska olovka Linc MR CLIC 0.7mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/7663.jpg"
         },
         {
-          "name": "Nedeljni planer",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Hemijska olovka Bic Gelocity Stic 0.5mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/12619.jpg"
         },
         {
-          "name": "Memo blokovi",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
-        }
-      ]
-    },
-    {
-      "slug": "arhiviranje",
-      "name": "Arhiviranje",
-      "description": "Kutije, fascikle i folderi za dugoročno čuvanje važnih dokumenata.",
-      "icon": "boxes",
-      "products": [
-        {
-          "name": "Arhivska kutija",
-           "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Hemijska olovka Pilot Super grip 0.7mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4321.jpg"
         },
         {
-          "name": "Dokument folder",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Hemijska olovka Pilot Super Grip G RT M plava 1.0mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/11524.jpg"
         },
         {
-          "name": "Mape sa etiketama",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Hemijska olovka Pilot Acroball 0.7mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/4320.jpg"
         },
         {
-          "name": "Plastične fascikle",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
-        }
-      ]
-    },
-    {
-      "slug": "kalendari-i-planeri",
-      "name": "Kalendari i planeri",
-      "description": "Stolni i zidni kalendari, planeri i dnevni rasporedi za timski rad.",
-      "icon": "label",
-      "products": [
-        {
-          "name": "Zidni kalendar",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
-        },
-        {
-          "name": "Dnevni planer",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
-        },
-        {
-          "name": "Mesečni planer",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
-        },
-        {
-          "name": "Planner za projekat",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
-        }
-      ]
-    },
-    {
-      "slug": "tehnicka-oprema",
-      "name": "Tehnička oprema",
-      "description": "Dodaci za kancelariju koji olakšavaju rad i održavanje štampača.",
-      "icon": "usb",
-      "products": [
-        {
-          "name": "USB flash disk",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
-        },
-        {
-          "name": "Kabl za napajanje",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
-        },
-        {
-          "name": "Adapter za monitor",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
-        },
-        {
-          "name": "Punjač za laptop",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
-        }
-      ]
-    },
-    {
-      "slug": "ambalaza-i-etikete",
-      "name": "Ambalaža i etikete",
-      "description": "Kutije, etikete i lepljive trake za pakovanje i identifikaciju.",
-      "icon": "tape",
-      "products": [
-        {
-          "name": "Selotejp traka",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
-        },
-        {
-          "name": "Etikete za pakete",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
-        },
-        {
-          "name": "Kartonske kutije",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
-        },
-        {
-          "name": "Transportna folija",
-          "image": "https://www.kancelarijskipribor.rs/images/products/big/1953.jpg"
+          "name": "Hemijska olovka Pilot Synergy Point 0.5mm",
+          "image": "https://www.kancelarijskipribor.rs/images/products/big/6578.jpg"
         }
       ]
     }
