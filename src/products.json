@@ -1,6 +1,13 @@
 {
   "groups": [
     {
+      "slug": "papir-nalepnice-blokovi-koverte",
+      "name": "Papir, nalepnice, blokčići i koverte",
+      "description": "Papir za štampanje, nalepnice, blokovi i koverte za urednu organizaciju.",
+      "icon": "paper",
+      "categories": ["papir-za-stampanje", "nalepnice-blokovi-koverte"]
+    },
+    {
       "slug": "pribor-za-pisanje",
       "name": "Pribor za pisanje",
       "description": "Hemijske i grafitne olovke, roleri, tehničke olovke, tekst markeri i flomasteri.",
@@ -15,25 +22,30 @@
       ]
     },
     {
-      "slug": "papir-nalepnice-blokovi-koverte",
-      "name": "Papir, nalepnice, blokčići i koverte",
-      "description": "Papir za štampanje, nalepnice, blokovi i koverte za urednu organizaciju.",
-      "icon": "paper",
-      "categories": ["papir-za-stampanje", "nalepnice-blokovi-koverte"]
-    },
-    {
       "slug": "odlaganje-dokumentacije",
       "name": "Odlaganje dokumentacije",
       "description": "Registratori, fascikle, folije, pregradni kartoni i police za dokumenta.",
       "icon": "binder",
-      "categories": ["registratori", "fascikle", "folije", "pregradni-karton", "police-za-dokumenta"]
+      "categories": [
+        "registratori",
+        "fascikle",
+        "folije",
+        "pregradni-karton",
+        "police-za-dokumenta"
+      ]
     },
     {
       "slug": "kancelarijski-pribor",
       "name": "Kancelarijski pribor",
       "description": "Heftalice, pribor za sto, trake i lepkovi, bušači i kalkulatori.",
       "icon": "clip",
-      "categories": ["heftalice-i-rasheftivaci", "pribor-za-radni-sto", "lepljive-trake-i-lepkovi", "busaci", "kalkulatori"]
+      "categories": [
+        "heftalice-i-rasheftivaci",
+        "pribor-za-radni-sto",
+        "lepljive-trake-i-lepkovi",
+        "busaci",
+        "kalkulatori"
+      ]
     },
     {
       "slug": "table-i-pribor-za-table",
@@ -47,7 +59,12 @@
       "name": "Biro mašine i uređaji u kancelariji",
       "description": "Potezni noževi, štampači, skeneri i uništivači papira.",
       "icon": "printer",
-      "categories": ["potezni-nozevi", "stampaci", "skeneri", "unistivaci-papira"]
+      "categories": [
+        "potezni-nozevi",
+        "stampaci",
+        "skeneri",
+        "unistivaci-papira"
+      ]
     }
   ],
   "categories": [
@@ -1333,7 +1350,7 @@
         }
       ]
     },
-        {
+    {
       "slug": "unistivaci-papira",
       "name": "Uništivači papira",
       "description": "Uništivači papira",
